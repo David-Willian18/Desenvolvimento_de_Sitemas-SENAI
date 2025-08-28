@@ -13,7 +13,11 @@ let tabuada = 8
 }
 
 function ex2(){
-
+    var contador = 100
+    while (contador <= 110){
+        alert(`${contador}`)
+        contador++
+    }
 }
 
 function ex3(){

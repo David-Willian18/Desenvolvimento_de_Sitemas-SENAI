@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: GranTurismo;
+    src: url(../GT/OnlineWebFonts_COM_ce6482c867348904589eb352ee3918c7/Helvetica\ 97\ Black\ Condensed\ Oblique/GranT.ttf) ;
+}
+
+:root{
+    --fontPrimaria: GranTurismo;
+}
+
+body{
+    background-color: rgb(56, 56, 56);
+}
+
+#banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/Gran\ Turismo/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+header {
+    width: 80%;
+    padding: 10px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.199);
+    font-family: var(--fontPrimaria);
+    justify-content: center;
+    display: flex;
+    gap: 200px;
+   
+}
+
+a{
+  text-decoration: none; color: white; 
+}
+

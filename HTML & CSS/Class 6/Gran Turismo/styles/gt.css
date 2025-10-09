@@ -8,18 +8,12 @@
     src: url(../GT/OnlineWebFonts_COM_ce6482c867348904589eb352ee3918c7/Helvetica\ 97\ Black\ Condensed\ Oblique/GranT.ttf) ;
 }
 
-@font-face {
-    font-family: Tokyo;
-    src: url(../GT/OnlineWebFonts_COM_ce6482c867348904589eb352ee3918c7/tokyo_3/Tokyo.ttf);
-}
-
 :root{
     --fontPrimaria: GranTurismo;
-    --fontSecundaria: Tokyo;
 }
 
 body{
-    background-color: rgb(38, 38, 38);
+    background-color: rgb(56, 56, 56);
 }
 
 #banner{
@@ -53,13 +47,15 @@ a{
 .noticias{
     font-family: var(--fontSecundaria);
     color: white;
+    display: flex;
+    flex-direction: row;
 }
 
 .noticias div{
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(117, 117, 117);
     margin: 30px;
     width: 520px;
-    height: 540px;
+    height: 560px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -68,6 +64,7 @@ a{
     row-gap: 20px;
     border-radius: 20px;
 }
+
 
 #ayrton{
     background-image: url(../img/Gran\ Turismo/sennagt.jpg);
@@ -92,7 +89,6 @@ a{
 
 #Online{
     background-image: url(../img/Gran\ Turismo/gt6.jpg);
-    background:cover;
     background-repeat: no-repeat;
     background-size: 680px 470px;
     display: flex;

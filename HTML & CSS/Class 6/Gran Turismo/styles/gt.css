@@ -2,14 +2,24 @@
     padding: 0%;
     margin: 0%;
 }
+ 
+@keyframes identifier {
+    
+}
 
 @font-face {
     font-family: GranTurismo;
-    src: url(../GT/OnlineWebFonts_COM_ce6482c867348904589eb352ee3918c7/Helvetica\ 97\ Black\ Condensed\ Oblique/GranT.ttf) ;
+    src: url(../GT/GranTurismoFonts/tokyo_3/Tokyo.ttf);
+}
+
+@font-face{
+    font-family: GranTurismo2;
+    src: url(../GT/GranTurismoFonts/Helvetica\ 97\ Black\ Condensed\ Oblique/GranT.ttf);
 }
 
 :root{
     --fontPrimaria: GranTurismo;
+    --fontSecundaria: GranTurismo2;
 }
 
 body{
@@ -49,10 +59,10 @@ a{
     color: white;
     display: flex;
     flex-direction: row;
+    animation: identifier ;
 }
 
 .noticias div{
-    background-color: rgb(117, 117, 117);
     margin: 30px;
     width: 520px;
     height: 560px;
@@ -68,29 +78,29 @@ a{
 
 #ayrton{
     background-image: url(../img/Gran\ Turismo/sennagt.jpg);
-    background-image: cover;
+    background-position: cover;
     background-repeat: no-repeat;
-    background-size: 640px 470px;
+    background-size: 830px 590px;
 }
 
 #ranking{
     background-image: url(../img/Gran\ Turismo/gt1.jpg);
     background-image: cover;
     background-repeat: no-repeat;
-    background-size: 580px 470px;
+    background-size: 580px 590px;
 }
 
 #Filme{
     background-image: url(../img/Gran\ Turismo/gtr.avif);
     background-image: cover;
     background-repeat: no-repeat;
-    background-size: 580px 425px;
+    background-size: 580px 600px;
 }
 
 #Online{
     background-image: url(../img/Gran\ Turismo/gt6.jpg);
     background-repeat: no-repeat;
-    background-size: 680px 470px;
+    background-size: 800px 600px;
     display: flex;
     background-position: center;
 }

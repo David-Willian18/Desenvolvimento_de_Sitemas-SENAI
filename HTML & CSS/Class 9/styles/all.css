@@ -1,13 +1,15 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 :root{
-    --corPrimaria: rgb(132, 0, 255);
+    --corPrimaria: rgb(39, 39, 39);
     --branco: rgb(230, 230, 230);
     --preto: rgb(35, 35, 35);
     --orange: rgb(255, 131, 48);
+    --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body{
@@ -26,13 +28,18 @@ header{
 #logoImg{
     width: 120px;
     display: flex;
-    margin-right: 0px;
+    margin: 10px;
 }
+
+#logo h1{
+    color: white;
+}
+
+
 
 header a{
     text-decoration: none;
     color: var(--branco);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: x-large;
 }
 
@@ -42,17 +49,31 @@ nav, #logo{
     gap: 10px;
 }
 
-main {
-    width: 80%;
-    height: 700px;
+.home {
+    width: 90%;
+    height: 1200px;
     border-radius: 10px;
     margin: 80px;
     padding: 20px;
     background-color: rgba(215, 215, 215, 0.964);
-    box-shadow: 15px 15px 15px rgba(255, 134, 73, 0.447);
+    box-shadow: 15px 15px 15px rgba(227, 11, 255, 0.447);
     background-image: url(../img/watch\ Dogs.jpg);
     background-repeat: no-repeat;
-    background-size: 1300px;
+    background-size: cover;
+
+}
+
+#logoImg {
+    transform: rotate(100deg);
+}
+
+#titulo{
+    padding: 20px;
+    font-size: 60px;
+    font-family: var(--font);
+    color: var(--branco);
+    display: flex;
+    margin: 500px 0px;
 }
 
 .direito{
@@ -63,14 +84,14 @@ main {
 .paginaAtual{
     background-color: var(--branco);
     padding: 3px;
-    color: var(--corPrimaria);
+    color: rgb(134, 6, 255);
     border-radius: 5px;
+    font-weight: bold;
 }
 
 #biblioteca{
     display: flex;
     flex-direction: row;
-    font-family:Arial, Helvetica, sans-serif;
 }
 #listaCategorias{
     width: 30%;
@@ -92,18 +113,6 @@ main {
     width: 70%;
 }
 
-.banner{
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: aqua;
-    display: flex;
-    align-items: end;
-    background-position: end;
-}
 
-#wd{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
+
 
